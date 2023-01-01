@@ -1,0 +1,17 @@
+sight|sight_address|XX在哪里
+sight|sight_address|XX地址
+sight|sight_address|XX在哪个省哪个市
+sight|sight_telephone|怎么去XX，电话是多少
+sight|sight_telephone|XX的联系方式
+sight|sight_telephone|XX联系电话查询
+sight|sight_telephone|XX景区的电话
+sight|sight_telephone|XX电话
+sight|sight_description|XX介绍
+sight|sight_description|XX这个地方怎么样
+sight|sight_description|XX好玩吗
+place||XX有哪些好玩的
+place||XX有哪些好玩的地方
+place||XX有哪些景点
+place||XX景点
+place||去XX好玩吗
+place||XX的旅游景点

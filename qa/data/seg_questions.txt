@@ -1,0 +1,17 @@
+sight | sight _ address | XX 在 哪里
+sight | sight _ address | XX 地址
+sight | sight _ address | XX 在 哪个 省 哪个 市
+sight | sight _ telephone | 怎么 去 XX ， 电话 是 多少
+sight | sight _ telephone | XX 的 联系 联系方式 方式
+sight | sight _ telephone | XX 联系 联系电话 电话 查询
+sight | sight _ telephone | XX 景区 的 电话
+sight | sight _ telephone | XX 电话
+sight | sight _ description | XX 介绍
+sight | sight _ description | XX 这个 地方 怎么 怎么样
+sight | sight _ description | XX 好玩 吗
+place || XX 有 哪些 好玩 的
+place || XX 有 哪些 好玩 的 地方
+place || XX 有 哪些 景点
+place || XX 景点
+place || 去 XX 好玩 吗
+place || XX 的 旅游 旅游景点 景点

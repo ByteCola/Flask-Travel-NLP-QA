@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="/static/assets/css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="/static/assets/css/bootstrap.css" rel="stylesheet"/>
+    <link href="/static/assets/css/chat.css" rel="stylesheet"/>
+</head>
+
+<body>
+<div class="bg"></div>
+<div class="">
+    <div class="col-6 mt-6 mx-auto">
+        <div class="card">
+
+            <form role="form" method="post" action="">
+
+                {{ form.hidden_tag() }}
+
+                <div class="card-header">
+                    <h5 class="title">注册</h5>
+
+                    <h6 class="card-category">
+                        {% if msg %}
+                            <span class="text-danger">{{ msg | safe }}</span>
+                        {% else %}
+                            欢迎注册安徽景点机器人自主查询服务
+                        {% endif %}
+                    </h6>
+                </div>
+
+                <div class="card-body ">
+
+                    <div class="row justify-content-center">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label>用户名</label>
+                                {{ form.username(class="form-control") }}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-6 ">
+                            <div class="form-group">
+                                <label>邮箱</label>
+                                {{ form.email(class="form-control", type="email") }}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-6 ">
+                            <div class="form-group">
+                                <label>密码</label>
+                                {{ form.password(class="form-control", type="password") }}
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card-footer text-center">
+                    <button type="submit" name="register" class="btn btn-fill btn-primary">注册</button>
+                    &nbsp; &nbsp;
+                    已经有账号了? <a href="{{ url_for('authentication_blueprint.login') }}" class="text-primary">登录</a>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</div>
+
+
+<script src="/static/assets/js/jquery-2.1.1.js"></script>
+<script src="/static/assets/js/bootstrap.js"></script>
+</body>
+</html>
