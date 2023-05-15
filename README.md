@@ -34,6 +34,9 @@
 
 <br />
 
+> 👉 **[安装 Mongodb](https://www.mongodb.com/docs/manual/installation/)** 
+
+
 > 👉 **[安装 Python3](https://www.runoob.com/python/python-install.html)** 
 
 
@@ -52,27 +55,12 @@ $ pip3 install -r requirements.txt
 
 <br />
 
-> 👉 **设置环境变量**
-
-```bash
-$ # CMD terminal
-$ set FLASK_APP=run.py
-$ set FLASK_ENV=development
-$
-$ # Powershell
-$ $env:FLASK_APP = ".\run_flask.py"
-$ $env:FLASK_ENV = "development"
-```
-
-<br />
-
 > 👉 **启动程序**
 
 ```bash
 $ flask run 
 ```
 
-程序启动主要页面
 
 - 首页: `http://localhost:5000/`
 
@@ -118,6 +106,8 @@ $ flask run
    |
    |-- .env                                 # Inject Configuration via Environment
    |-- run_flask.py                               # Start the app - WSGI gateway
+   |-- run_data_crawler.py                        # 数据爬虫
+   |-- run_data_crawler.py                        # 数据爬虫
    |
    |-- ************************************************************************
 ```
