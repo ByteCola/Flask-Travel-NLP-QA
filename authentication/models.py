@@ -34,8 +34,6 @@ class Users(UserMixin):
 
 @login_manager.user_loader
 def user_loader(id):
-    print("########################################")
-    print(id)
     database = Database()
     user_col = database.get_collection('sight_qa_db', 'user_data')
     user_data = user_col.find_one({"_id": ObjectId(id)})
